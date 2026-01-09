@@ -1,3 +1,3 @@
-import ravi from './ravi.png'
+import profile from "./profile.jpg";
 
-export const assets = {ravi}
+export const assets = { profile };

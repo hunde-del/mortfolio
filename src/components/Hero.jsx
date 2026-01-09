@@ -29,9 +29,9 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-            Data Scientist & <br />
+            Software Engineer &<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-              ML Engineer
+              AI Specialist
             </span>
           </h1>
 
@@ -54,7 +54,7 @@ const Hero = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href="./raviresume.pdf"
+              href="./resume.pdf"
               target="_blank"
               className="btn-outline cursor-pointer flex items-center gap-2"
               rel="noopener noreferrer"
@@ -72,8 +72,8 @@ const Hero = () => {
           className="relative"
         >
           <img
-            src={assets.ravi}
-            alt="Ravi Kumar"
+            src={assets.profile}
+            alt="Hunduma  Aboma"
             className="w-full max-w-md mx-auto rounded-3xl shadow-2xl border border-white/10 relative z-10 bg-card"
           />
           {/* Decorative Elements */}
